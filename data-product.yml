@@ -6,6 +6,42 @@ metadata:
   - schema:
 description:
 input_ports:
+  - id: berlin-building-industry-2023-00
+    metadata:
+      name: Baugewerbe in Berlin 2023
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2024-02-29
+    files:
+      - https://download.statistik-berlin-brandenburg.de/3afd71d2f9813ad7/d5c9c0bbe8ab/SB_E02-02-00_2023j01_BE.xlsx
+  - id: berlin-building-industry-2022-00
+    metadata:
+      name: Baugewerbe in Berlin 2022
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-02-01
+    files:
+      - https://download.statistik-berlin-brandenburg.de/ef6cb735b329cbb4/ee8677b51646/SB_E02-02-00_2022j01_BE.xlsx
+  - id: berlin-building-industry-2021-00
+    metadata:
+      name: Baugewerbe in Berlin 2021
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-02-01
+    files:
+      - https://download.statistik-berlin-brandenburg.de/bcbf8552c422eb64/d3d555404d57/SB_E02-02-00_2021j01_BE.xlsx
+  - id: berlin-building-industry-2020-00
+    metadata:
+      name: Baugewerbe in Berlin 2020
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-02-12
+    files:
+      - https://download.statistik-berlin-brandenburg.de/7910f648886e1337/913cbcf0e17e/SB_E02-02-00_2020j01_BE.xlsx
 output_ports:
 metrics:
   - quality:
