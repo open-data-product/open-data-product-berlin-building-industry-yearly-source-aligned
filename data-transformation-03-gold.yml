@@ -1,0 +1,6 @@
+---
+input_ports:
+  - id: berlin-building-industry-2020-00
+  - id: berlin-building-industry-2021-00
+  - id: berlin-building-industry-2022-00
+  - id: berlin-building-industry-2023-00

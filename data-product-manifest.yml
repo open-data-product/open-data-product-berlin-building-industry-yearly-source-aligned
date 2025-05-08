@@ -1,0 +1,78 @@
+---
+id: berlin-building-industry-yearly-source-aligned
+metadata:
+  name: Berlin Building Industry yearly (source-aligned)
+  owner: Open Data Product
+  description: Source-aligned data product providing Berlin building industry data
+  url:
+  license:
+  updated: 2025-06-16
+  schema: []
+input_ports:
+  - id: berlin-building-industry-2020-00
+    metadata:
+      name: Baugewerbe in Berlin 2020
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-02-12
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/7910f648886e1337/913cbcf0e17e/SB_E02-02-00_2020j01_BE.xlsx
+  - id: berlin-building-industry-2021-00
+    metadata:
+      name: Baugewerbe in Berlin 2021
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2022-02-01
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/bcbf8552c422eb64/d3d555404d57/SB_E02-02-00_2021j01_BE.xlsx
+  - id: berlin-building-industry-2022-00
+    metadata:
+      name: Baugewerbe in Berlin 2022
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-02-01
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/ef6cb735b329cbb4/ee8677b51646/SB_E02-02-00_2022j01_BE.xlsx
+  - id: berlin-building-industry-2023-00
+    metadata:
+      name: Baugewerbe in Berlin 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      description:
+      url: https://www.statistik-berlin-brandenburg.de/e-ii-2-e-iii-2-j
+      license: CC-BY-3.0-Namensnennung
+      updated: 2024-02-29
+      schema: []
+    files:
+      - https://download.statistik-berlin-brandenburg.de/3afd71d2f9813ad7/d5c9c0bbe8ab/SB_E02-02-00_2023j01_BE.xlsx
+transformation_steps:
+  - name: Data extractor
+    path: lib/extract/data_extractor.py
+    description: extracts data from inout ports
+  - name: Data copier
+    path: lib/transform/data_copier.py
+    description: copies and renames extracted data
+  - name: Data CSV converter
+    path: lib/transform/convert_data_to_csv.py
+    description: converts Excel files to CSV format
+  - name: Data aggregator
+    path: lib/transform/aggregate_data.py
+    description: aggregates data to be used as output ports
+output_ports: []
+observability:
+consumers: []
+use_cases: []
+classification: source-aligned
+ubiquitous_language: []
+tags:
+  - berlin
+  - building
+  - housing

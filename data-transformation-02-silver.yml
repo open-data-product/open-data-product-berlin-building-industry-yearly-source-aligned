@@ -1,0 +1,18 @@
+---
+input_ports:
+  - id: berlin-building-industry-2020-00
+    files:
+      - source_file_name: SB_E02-02-00_2020j01_BE.xlsx
+        target_file_name: berlin-building-industry-2020-00.xlsx
+  - id: berlin-building-industry-2021-00
+    files:
+      - source_file_name: SB_E02-02-00_2021j01_BE.xlsx
+        target_file_name: berlin-building-industry-2021-00.xlsx
+  - id: berlin-building-industry-2022-00
+    files:
+      - source_file_name: SB_E02-02-00_2022j01_BE.xlsx
+        target_file_name: berlin-building-industry-2022-00.xlsx
+  - id: berlin-building-industry-2023-00
+    files:
+      - source_file_name: SB_E02-02-00_2023j01_BE.xlsx
+        target_file_name: berlin-building-industry-2023-00.xlsx
