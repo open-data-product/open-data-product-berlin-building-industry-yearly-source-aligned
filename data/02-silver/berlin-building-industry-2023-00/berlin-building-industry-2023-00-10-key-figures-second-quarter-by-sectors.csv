@@ -1,0 +1,16 @@
+wz_2008,sector,companies,employees,salaries,working_hours,turnover_building_industry,turnover_previous_year_building_industry
+43.2,Bauinstallation,,611,20516,204102,7077,733214
+43.21,,Elektroinstallation,208,6230,59785,2125,193478
+43.22,,"Gas-, Wasser-, Heizungs-, Lüftungs- u. Klimaanlageninst.",301,9512,97171,3258,357028
+43.29.1,,"Dämmung gegen Kälte, Wärme,Schall und Erschütterung",46,2366,15231,895,65942
+43.29.9,,Sonstige Bauinstallation a.n.g.,56,2408,31915,800,116767
+43.3,Sonstiger Ausbau,,402,8837,69445,2888,307427
+43.31,,"Anbringen von Stuckaturen, Gipserei und Verputzerei",89,2055,15101,650,83527
+43.32,,Bautischlerei und -schlosserei,72,1326,11285,440,41784
+43.33,,"Fußboden-, Fliesen-, Plattenlegerei, Tapeziererei",97,1980,14566,633,71441
+43.34.1,,Maler- und Lackierergewerbe,135,3225,25270,1078,96238
+43.34.2,,Glasergewerbe,8,•,•,•,•
+43.39,,Sonstiger Ausbau a.n.g.,1,•,•,•,•
+43.2/43.3,Ausbaugewerbe insgesamt,,1013,29353,273547,9965,1040641
+Bauträger,,,,,,,
+41.1,Erschließung von Grundstücken; Bauträger,,10,220,3245,x,x

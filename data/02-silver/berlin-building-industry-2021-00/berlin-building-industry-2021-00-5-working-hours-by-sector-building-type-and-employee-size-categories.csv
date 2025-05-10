@@ -1,0 +1,37 @@
+wz_2008,sector,working_hours_total,working_hours_in_companies_with_1_19_employees,working_hours_in_companies_with_20_49_employees,working_hours_in_companies_with_50_99_employees,working_hours_in_companies_with_100_employees_and_more
+41.2,Bau von Gebäuden,810,178,211,134,287
+41.20.1,Bau von Gebäuden (ohne Fertigteilbau),700,•,•,•,•
+41.20.2,Errichtung von Fertigteilbauten,110,•,–,–,•
+42,Tiefbau,831,101,151,234,345
+42.1,Bau von Straßen und  Bahnverkehrsstrecken,448,47,78,89,234
+42.11,Bau von Straßen,268,46,55,51,117
+42.12,Bau von Bahnverkehrsstrecken,170,•,•,•,•
+42.13,Brücken- und Tunnelbau,10,•,•,•,•
+42.2,Leitungstiefbau und Kläranlagenbau,352,46,67,135,104
+42.21,"Rohrleitungstiefbau, Brunnen- und Kläranlagenbau",206,27,42,79,58
+42.22,Kabelnetzleitungstiefbau,146,18,25,57,46
+42.9,Sonstiger Tiefbau,32,9,•,•,•
+42.91,Wasserbau,9,5,•,•,•
+42.99,Sonstiger Tiefbau a.n.g.,22,4,•,•,•
+43.1,Abbrucharbeiten und vorbereitende Baustellenarbeiten,147,88,37,22,–
+43.11,Abbrucharbeiten,103,62,•,•,–
+43.12,Vorbereitende Baustellenarbeiten,•,•,•,•,•
+43.13,Test- und Suchbohrung,•,•,•,•,•
+43.9,Sonstige spezialisierte Bautätigkeiten,987,550,278,105,54
+43.91,Dachdeckerei und Zimmerei,398,239,127,•,•
+43.91.1,Dachdeckerei und Bauspenglerei,353,204,117,•,•
+43.91.2,Zimmerei und Ingenieurholzbau,45,35,10,–,–
+43.99,Sonstige spezialisierte Bautätigkeiten a.n.g.,589,312,151,•,•
+43.99.1,Gerüstbau,99,51,35,•,•
+43.99.2,"Schornstein-, Feuerungs- und Industrieofenbau",5,5,–,–,–
+43.99.9,Baugewerbe a.n.g.,484,254,116,•,•
+41.2/4243.1/43.9,Bauhauptgewerbe insgesamt,2776,918,677,495,686
+,Wohnungsbau,1339,592,322,189,236
+,Gewerblicher Bau,899,223,204,198,274
+,Hochbau,324,142,102,26,56
+,Tiefbau,575,82,102,172,219
+,Öffentlicher und Straßenbau,537,102,151,108,176
+,Hochbau,137,45,59,•,•
+,Tiefbau,401,56,91,•,•
+,davon:  Straßenbau,292,46,56,46,144
+,sonstiger Tiefbau,109,10,35,48,16

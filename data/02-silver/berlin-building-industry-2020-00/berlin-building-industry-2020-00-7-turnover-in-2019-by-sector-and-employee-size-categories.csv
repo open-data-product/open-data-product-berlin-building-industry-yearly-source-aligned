@@ -1,0 +1,28 @@
+wz_2008,sector,turnover_total,turnover_in_building_industry,turnover_in_companies_with_1_19_employees,turnover_in_companies_with_20_49_employees,turnover_in_companies_with_50_99_employees,turnover_in_companies_with_100_employees_and_more
+41.2,Bau von Gebäuden,2179688,2173934,277634,393778,538124,964399
+41.20.1,Bau von Gebäuden (ohne Fertigteilbau),•,•,•,•,•,•
+41.20.2,Errichtung von Fertigteilbauten,•,•,•,•,•,•
+42,Tiefbau,1079930,1076755,102120,171776,281490,521369
+42.1,Bau von Straßen und  Bahnverkehrsstrecken,579272,577844,39561,93278,77841,367162
+42.11,Bau von Straßen,281408,280260,36384,56052,40294,147529
+42.12,Bau von Bahnverkehrsstrecken,271107,270884,2678,29381,19191,219633
+42.13,Brücken- und Tunnelbau,26757,26700,499,7845,18356,–
+42.2,Leitungstiefbau und Kläranlagenbau,412641,410894,58036,57242,179012,116603
+42.21,"Rohrleitungstiefbau, Brunnen- und Kläranlagenbau",248318,247101,34398,30809,125743,56151
+42.22,Kabelnetzleitungstiefbau,164324,163793,23640,26433,53269,60452
+42.9,Sonstiger Tiefbau,88017,88017,4522,21255,24636,37604
+42.91,Wasserbau,19510,19510,2351,17159,–,–
+42.99,Sonstiger Tiefbau a.n.g.,68507,68507,2171,4096,24636,37604
+43.1,Abbrucharbeiten und vorbereitende Baustellenarbeiten,158187,157553,89954,61881,5719,–
+43.11,Abbrucharbeiten,114074,113711,71474,42236,–,–
+43.12,Vorbereitende Baustellenarbeiten,•,•,•,•,•,•
+43.13,Test- und Suchbohrung,•,•,•,•,•,•
+43.9,Sonstige spezialisierte Bautätigkeiten,1018065,1016142,528643,300803,117858,68839
+43.91,Dachdeckerei und Zimmerei,425169,424852,214981,128452,28000,53420
+43.91.1,Dachdeckerei und Bauspenglerei,383950,383735,180946,121369,28000,53420
+43.91.2,Zimmerei und Ingenieurholzbau,41219,41117,34033,7083,–,–
+43.99,Sonstige spezialisierte Bautätigkeiten a.n.g.,592896,591291,313663,172351,89858,15419
+43.99.1,Gerüstbau,127331,126973,57851,42734,26387,–
+43.99.2,"Schornstein-, Feuerungs- und Industrieofenbau",7959,7793,7793,–,–,–
+43.99.9,Baugewerbe a.n.g.,457606,456525,248019,129617,63471,15419
+41.2/4243.1/43.9,Bauhauptgewerbe insgesamt,4435870,4424384,998350,928237,943190,1554607

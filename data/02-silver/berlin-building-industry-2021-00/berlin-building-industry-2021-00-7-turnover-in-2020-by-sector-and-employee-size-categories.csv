@@ -1,0 +1,28 @@
+wz_2008,sector,turnover_total,turnover_in_building_industry,turnover_in_companies_with_1_19_employees,turnover_in_companies_with_20_49_employees,turnover_in_companies_with_50_99_employees,turnover_in_companies_with_100_employees_and_more
+41.2,Bau von Gebäuden,2347026,2341602,314377,453098,519889,1054238
+41.20.1,Bau von Gebäuden (ohne Fertigteilbau),2122667,2117243,•,•,•,•
+41.20.2,Errichtung von Fertigteilbauten,224359,224359,•,•,•,•
+42,Tiefbau,1241633,1235241,125844,182447,340019,586931
+42.1,Bau von Straßen und  Bahnverkehrsstrecken,661438,660160,35773,105365,98068,420954
+42.11,Bau von Straßen,328686,327788,32461,61532,54899,178896
+42.12,Bau von Bahnverkehrsstrecken,301167,300890,•,•,•,•
+42.13,Brücken- und Tunnelbau,31584,31482,•,•,•,•
+42.2,Leitungstiefbau und Kläranlagenbau,448817,444257,69547,70583,181566,122560
+42.21,"Rohrleitungstiefbau, Brunnen- und Kläranlagenbau",268279,266483,30769,49399,121475,64840
+42.22,Kabelnetzleitungstiefbau,180538,177774,38780,21184,60091,57720
+42.9,Sonstiger Tiefbau,131378,130824,20522,•,•,•
+42.91,Wasserbau,23604,23604,17104,•,•,•
+42.99,Sonstiger Tiefbau a.n.g.,107775,107220,3419,•,•,•
+43.1,Abbrucharbeiten und vorbereitende Baustellenarbeiten,255208,254836,118988,54109,81740,–
+43.11,Abbrucharbeiten,139250,139082,81821,•,•,–
+43.12,Vorbereitende Baustellenarbeiten,•,•,•,•,•,•
+43.13,Test- und Suchbohrung,•,•,•,•,•,•
+43.9,Sonstige spezialisierte Bautätigkeiten,1160449,1156371,568837,342738,167690,77106
+43.91,Dachdeckerei und Zimmerei,473696,473365,228802,150468,•,•
+43.91.1,Dachdeckerei und Bauspenglerei,428255,428056,192307,141655,•,•
+43.91.2,Zimmerei und Ingenieurholzbau,45441,45309,36495,8814,–,–
+43.99,Sonstige spezialisierte Bautätigkeiten a.n.g.,686753,683006,340035,192270,•,•
+43.99.1,Gerüstbau,136746,136270,56397,58319,•,•
+43.99.2,"Schornstein-, Feuerungs- und Industrieofenbau",6565,6441,6411,–,–,–
+43.99.9,Baugewerbe a.n.g.,543443,540296,277197,133950,•,•
+41.2/4243.1/43.9,Bauhauptgewerbe insgesamt,5004317,4988051,1128045,1032392,1109338,1718275

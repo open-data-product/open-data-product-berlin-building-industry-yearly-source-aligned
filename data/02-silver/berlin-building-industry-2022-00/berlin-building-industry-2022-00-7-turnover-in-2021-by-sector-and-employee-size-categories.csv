@@ -1,0 +1,28 @@
+wz_2008,sector,turnover_total,turnover_in_building_industry,turnover_in_companies_with_1_19_employees,turnover_in_companies_with_20_49_employees,turnover_in_companies_with_50_99_employees,turnover_in_companies_with_100_employees_and_more
+41.2,Bau von Gebäuden,2268098,2263904,335982,452564,533665,941693
+41.20.1,Bau von Gebäuden (ohne Fertigteilbau),•,•,•,•,•,•
+41.20.2,Errichtung von Fertigteilbauten,•,•,•,•,•,•
+42,Tiefbau,1218514,1213407,130801,163738,329230,589638
+42.1,Bau von Straßen und  Bahnverkehrsstrecken,670229,667589,41724,83808,110289,431769
+42.11,Bau von Straßen,279079,277317,36869,42365,44308,153775
+42.12,Bau von Bahnverkehrsstrecken,•,•,•,•,•,•
+42.13,Brücken- und Tunnelbau,•,•,•,•,•,•
+42.2,Leitungstiefbau und Kläranlagenbau,432023,430080,74535,70861,166449,118235
+42.21,"Rohrleitungstiefbau, Brunnen- und Kläranlagenbau",240861,239441,36140,51353,88186,63763
+42.22,Kabelnetzleitungstiefbau,191162,190639,38395,19508,78264,54472
+42.9,Sonstiger Tiefbau,116262,115737,14543,•,•,•
+42.91,Wasserbau,20470,20470,11401,•,•,•
+42.99,Sonstiger Tiefbau a.n.g.,95792,95268,3142,•,•,•
+43.1,Abbrucharbeiten und vorbereitende Baustellenarbeiten,231905,230724,125493,29328,45475,•
+43.11,Abbrucharbeiten,130411,129459,88267,29328,•,–
+43.12,Vorbereitende Baustellenarbeiten,100794,100564,•,•,•,•
+43.13,Test- und Suchbohrung,700,700,•,•,•,•
+43.9,Sonstige spezialisierte Bautätigkeiten,1149225,1144384,598675,383438,119749,42523
+43.91,Dachdeckerei und Zimmerei,422843,421638,232276,141700,•,•
+43.91.1,Dachdeckerei und Bauspenglerei,377544,376792,191356,•,•,•
+43.91.2,Zimmerei und Ingenieurholzbau,45299,44846,40920,•,•,•
+43.99,Sonstige spezialisierte Bautätigkeiten a.n.g.,726382,722747,366398,241738,•,•
+43.99.1,Gerüstbau,147818,•,55583,83785,•,•
+43.99.2,"Schornstein-, Feuerungs- und Industrieofenbau",8795,•,•,–,•,•
+43.99.9,Baugewerbe a.n.g.,569769,566444,302020,157954,•,•
+41.2/4243.1/43.9,Bauhauptgewerbe insgesamt,4867743,4852419,1190951,1029068,1028119,1604281

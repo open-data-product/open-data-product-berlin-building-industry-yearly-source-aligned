@@ -4,15 +4,755 @@ input_ports:
     files:
       - source_file_name: SB_E02-02-00_2020j01_BE.xlsx
         target_file_name: berlin-building-industry-2020-00.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2020-00-1-companies-employees-and-working-hours.csv
+            sheet_name: Tab1_BE_EE
+            names:
+              - { name: year, type: int }
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2020-00-2-key-figures-by-employee-size-categories.csv
+            sheet_name: Tab2_BE_EE
+            names:
+              - name: employee_size_category
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_in_june, type: int }
+              - { name: turnover_in_previous_year, type: int }
+            skip_rows: 14
+            head: 4
+          - target_file_name: berlin-building-industry-2020-00-3-companies-employees-salaries-by-sectors.csv
+            sheet_name: Tab3_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: crafts, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: employees_in_crafts, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 6
+            head: 26
+          - target_file_name: berlin-building-industry-2020-00-4-employees-by-position.csv
+            sheet_name: Tab4_BE_EE
+            names:
+              - name: position
+              - { name: employees_total, type: int }
+              - { name: employees_in_companies_with_1_19_employees, type: int }
+              - { name: employees_in_companies_with_20_49_employees, type: int }
+              - { name: employees_in_companies_with_50_99_employees, type: int }
+              - { name: employees_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 10
+          - target_file_name: berlin-building-industry-2020-00-5-working-hours-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab5_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_99_employees, type: int }
+              - { name: working_hours_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 37
+          - target_file_name: berlin-building-industry-2020-00-6-turnover-in-june-2020-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab6_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 37
+          - target_file_name: berlin-building-industry-2020-00-7-turnover-in-2019-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab7_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 27
+          - target_file_name: berlin-building-industry-2020-00-8-companies-employees-and-turnover.csv
+            sheet_name: Tab8_langeReihen
+            names:
+              - {name: year, type: int}
+              - {name: companies, type: int}
+              - {name: employees, type: int}
+              - {name: turnover_previous_year_total, type: int}
+              - {name: turnover_previous_year_building_industry, type: int}
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2020-00-9-key-figures-second-quarter-by-employee-size-categories.csv
+            sheet_name: Tab9_BE_JE
+            names:
+              - name: employee_size_category
+              - {name: companies, type: int}
+              - {name: employees, type: int}
+              - {name: salaries, type: int}
+              - {name: turnover_previous_year_total, type: int}
+              - {name: turnover_previous_year_building_industry, type: int}
+            skip_rows: 13
+            head: 3
+          - target_file_name: berlin-building-industry-2020-00-10-key-figures-second-quarter-by-sectors.csv
+            sheet_name: Tab10_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - {name: companies, type: int}
+              - {name: employees, type: int}
+              - {name: salaries, type: int}
+              - {name: working_hours, type: int}
+              - {name: turnover_building_industry, type: int}
+              - {name: turnover_previous_year_building_industry, type: int}
+            skip_rows: 7
+            head: 16
+          - target_file_name: berlin-building-industry-2020-00-11-working-hours-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab11_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 7
+            head: 23
+            dropna: True
+          - target_file_name: berlin-building-industry-2020-00-12-turnover-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab12_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2020-00-13-turnover-in-2019-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab13_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2020-00-14-legal-entities-employees-turnover-and-investments-main-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 10
+            head: 10
+            dropna: True
+          - target_file_name: berlin-building-industry-2020-00-14-legal-entities-employees-turnover-and-investments-extension-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 33
+            head: 10
+            dropna: True
   - id: berlin-building-industry-2021-00
     files:
       - source_file_name: SB_E02-02-00_2021j01_BE.xlsx
         target_file_name: berlin-building-industry-2021-00.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2021-00-1-companies-employees-and-working-hours.csv
+            sheet_name: Tab1_BE_EE
+            names:
+              - { name: year, type: int }
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2021-00-2-key-figures-by-employee-size-categories.csv
+            sheet_name: Tab2_BE_EE
+            names:
+              - name: employee_size_category
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_in_june, type: int }
+              - { name: turnover_in_previous_year, type: int }
+            skip_rows: 14
+            head: 4
+          - target_file_name: berlin-building-industry-2021-00-3-companies-employees-salaries-by-sectors.csv
+            sheet_name: Tab3_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: crafts, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: employees_in_crafts, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 6
+            head: 26
+          - target_file_name: berlin-building-industry-2021-00-4-employees-by-position.csv
+            sheet_name: Tab4_BE_EE
+            names:
+              - name: position
+              - { name: employees_total, type: int }
+              - { name: employees_in_companies_with_1_19_employees, type: int }
+              - { name: employees_in_companies_with_20_49_employees, type: int }
+              - { name: employees_in_companies_with_50_99_employees, type: int }
+              - { name: employees_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 10
+          - target_file_name: berlin-building-industry-2021-00-5-working-hours-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab5_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_99_employees, type: int }
+              - { name: working_hours_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 37
+          - target_file_name: berlin-building-industry-2021-00-6-turnover-in-june-2021-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab6_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 37
+          - target_file_name: berlin-building-industry-2021-00-7-turnover-in-2020-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab7_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 27
+          - target_file_name: berlin-building-industry-2021-00-8-companies-employees-and-turnover.csv
+            sheet_name: Tab8_langeReihen
+            names:
+              - { name: year, type: int }
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_previous_year_total, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2021-00-9-key-figures-second-quarter-by-employee-size-categories.csv
+            sheet_name: Tab9_BE_JE
+            names:
+              - name: employee_size_category
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_previous_year_total, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 13
+            head: 3
+          - target_file_name: berlin-building-industry-2021-00-10-key-figures-second-quarter-by-sectors.csv
+            sheet_name: Tab10_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: salaries, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_building_industry, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 7
+            head: 16
+          - target_file_name: berlin-building-industry-2021-00-11-working-hours-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab11_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 7
+            head: 13
+            dropna: True
+          - target_file_name: berlin-building-industry-2021-00-12-turnover-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab12_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2021-00-13-turnover-in-2020-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab13_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2021-00-14-legal-entities-employees-turnover-and-investments-main-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 10
+            head: 11
+            dropna: True
+          - target_file_name: berlin-building-industry-2021-00-14-legal-entities-employees-turnover-and-investments-extension-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 35
+            head: 11
+            dropna: True
   - id: berlin-building-industry-2022-00
     files:
       - source_file_name: SB_E02-02-00_2022j01_BE.xlsx
         target_file_name: berlin-building-industry-2022-00.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2022-00-1-companies-employees-and-working-hours.csv
+            sheet_name: Tab1_BE_EE
+            names:
+              - { name: year, type: int }
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-00-2-key-figures-by-employee-size-categories.csv
+            sheet_name: Tab2_BE_EE
+            names:
+              - name: employee_size_category
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_in_june, type: int }
+              - { name: turnover_in_previous_year, type: int }
+            skip_rows: 14
+            head: 4
+          - target_file_name: berlin-building-industry-2022-00-3-companies-employees-salaries-by-sectors.csv
+            sheet_name: Tab3_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: crafts, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: employees_in_crafts, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 6
+            head: 26
+          - target_file_name: berlin-building-industry-2022-00-4-employees-by-position.csv
+            sheet_name: Tab4_BE_EE
+            names:
+              - name: position
+              - { name: employees_total, type: int }
+              - { name: employees_in_companies_with_1_19_employees, type: int }
+              - { name: employees_in_companies_with_20_49_employees, type: int }
+              - { name: employees_in_companies_with_50_99_employees, type: int }
+              - { name: employees_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 10
+          - target_file_name: berlin-building-industry-2022-00-5-working-hours-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab5_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_99_employees, type: int }
+              - { name: working_hours_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 37
+          - target_file_name: berlin-building-industry-2022-00-6-turnover-in-june-2022-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab6_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 37
+          - target_file_name: berlin-building-industry-2022-00-7-turnover-in-2021-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab7_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 27
+          - target_file_name: berlin-building-industry-2022-00-8-companies-employees-and-turnover.csv
+            sheet_name: Tab8_langeReihen
+            names:
+              - { name: year, type: int }
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_previous_year_total, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2022-00-9-key-figures-second-quarter-by-employee-size-categories.csv
+            sheet_name: Tab9_BE_JE
+            names:
+              - name: employee_size_category
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_previous_year_total, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 13
+            head: 3
+          - target_file_name: berlin-building-industry-2022-00-10-key-figures-second-quarter-by-sectors.csv
+            sheet_name: Tab10_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: salaries, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_building_industry, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 7
+            head: 16
+          - target_file_name: berlin-building-industry-2022-00-11-working-hours-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab11_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 7
+            head: 13
+            dropna: True
+          - target_file_name: berlin-building-industry-2022-00-12-turnover-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab12_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2022-00-13-turnover-in-2021-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab13_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2022-00-14-legal-entities-employees-turnover-and-investments-main-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 10
+            head: 11
+            dropna: True
+          - target_file_name: berlin-building-industry-2022-00-14-legal-entities-employees-turnover-and-investments-extension-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 35
+            head: 11
+            dropna: True
   - id: berlin-building-industry-2023-00
     files:
       - source_file_name: SB_E02-02-00_2023j01_BE.xlsx
         target_file_name: berlin-building-industry-2023-00.xlsx
+        datasets:
+          - target_file_name: berlin-building-industry-2023-00-1-companies-employees-and-working-hours.csv
+            sheet_name: Tab1_BE_EE
+            names:
+              - { name: year, type: int }
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-00-2-key-figures-by-employee-size-categories.csv
+            sheet_name: Tab2_BE_EE
+            names:
+              - name: employee_size_category
+              - { name: companies, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: salaries, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_in_june, type: int }
+              - { name: turnover_in_previous_year, type: int }
+            skip_rows: 14
+            head: 4
+          - target_file_name: berlin-building-industry-2023-00-3-companies-employees-salaries-by-sectors.csv
+            sheet_name: Tab3_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: crafts, type: int }
+              - { name: employees_in_construction_industry, type: int }
+              - { name: employees_in_crafts, type: int }
+              - { name: salaries, type: int }
+            skip_rows: 6
+            head: 26
+          - target_file_name: berlin-building-industry-2023-00-4-employees-by-position.csv
+            sheet_name: Tab4_BE_EE
+            names:
+              - name: position
+              - { name: employees_total, type: int }
+              - { name: employees_in_companies_with_1_19_employees, type: int }
+              - { name: employees_in_companies_with_20_49_employees, type: int }
+              - { name: employees_in_companies_with_50_99_employees, type: int }
+              - { name: employees_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 10
+          - target_file_name: berlin-building-industry-2023-00-5-working-hours-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab5_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_99_employees, type: int }
+              - { name: working_hours_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 7
+            head: 37
+          - target_file_name: berlin-building-industry-2023-00-6-turnover-in-june-2023-by-sector-building-type-and-employee-size-categories.csv
+            sheet_name: Tab6_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 37
+          - target_file_name: berlin-building-industry-2023-00-7-turnover-in-2022-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab7_BE_EE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_99_employees, type: int }
+              - { name: turnover_in_companies_with_100_employees_and_more, type: int }
+            skip_rows: 8
+            head: 27
+          - target_file_name: berlin-building-industry-2023-00-8-companies-employees-and-turnover.csv
+            sheet_name: Tab8_langeReihen
+            names:
+              - { name: year, type: int }
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_previous_year_total, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 6
+            head: 11
+          - target_file_name: berlin-building-industry-2023-00-9-key-figures-second-quarter-by-employee-size-categories.csv
+            sheet_name: Tab9_BE_JE
+            names:
+              - name: employee_size_category
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: salaries, type: int }
+              - { name: turnover_previous_year_total, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 13
+            head: 3
+          - target_file_name: berlin-building-industry-2023-00-10-key-figures-second-quarter-by-sectors.csv
+            sheet_name: Tab10_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: companies, type: int }
+              - { name: employees, type: int }
+              - { name: salaries, type: int }
+              - { name: working_hours, type: int }
+              - { name: turnover_building_industry, type: int }
+              - { name: turnover_previous_year_building_industry, type: int }
+            skip_rows: 7
+            head: 16
+          - target_file_name: berlin-building-industry-2023-00-11-working-hours-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab11_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: working_hours_total, type: int }
+              - { name: working_hours_in_companies_with_1_19_employees, type: int }
+              - { name: working_hours_in_companies_with_20_49_employees, type: int }
+              - { name: working_hours_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 7
+            head: 13
+            dropna: True
+          - target_file_name: berlin-building-industry-2023-00-12-turnover-second-quarter-by-sectors-and-employee-size-categories.csv
+            sheet_name: Tab12_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2023-00-13-turnover-in-2022-by-sector-and-employee-size-categories.csv
+            sheet_name: Tab13_BE_JE
+            names:
+              - name: wz_2008
+              - name: sector
+              - { name: turnover_total, type: int }
+              - { name: turnover_in_building_industry, type: int }
+              - { name: turnover_in_companies_with_1_19_employees, type: int }
+              - { name: turnover_in_companies_with_20_49_employees, type: int }
+              - { name: turnover_in_companies_with_50_employees_and_more, type: int }
+            skip_rows: 9
+            head: 16
+            dropna: True
+          - target_file_name: berlin-building-industry-2023-00-14-legal-entities-employees-turnover-and-investments-main-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 10
+            head: 11
+            dropna: True
+          - target_file_name: berlin-building-industry-2023-00-14-legal-entities-employees-turnover-and-investments-extension-building-industry.csv
+            sheet_name: "Tab14_BE_Invest "
+            names:
+              - { name: year, type: int }
+              - { name: legal_entities, type: int }
+              - { name: legal_entities_with_activated_investments, type: int }
+              - { name: employees, type: int }
+              - { name: turnover_total, type: int }
+              - { name: capitalized_gross_fixed_investments_total, type: int }
+              - { name: capitalized_gross_fixed_investments_per_employee, type: int }
+              - { name: capitalized_gross_fixed_investments_relative_to_turnover, type: float }
+            skip_rows: 35
+            head: 11
+            dropna: True

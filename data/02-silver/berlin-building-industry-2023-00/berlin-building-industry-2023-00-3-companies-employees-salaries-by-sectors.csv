@@ -1,0 +1,27 @@
+wz_2008,sector,companies,crafts,employees_in_construction_industry,employees_in_crafts,salaries
+41.2,Bau von Gebäuden,370,298,7451,5315,23864
+41.20.1,Bau von Gebäuden (ohne Fertigteilbau),367,297,6621,•,20856
+41.20.2,Errichtung von Fertigteilbauten,3,1,830,•,3008
+42,Tiefbau,208,121,7422,3931,28684
+42.1,Bau von Straßen und  Bahnverkehrsstrecken,92,64,4006,1666,16557
+42.11,Bau von Straßen,77,58,2061,1426,7730
+42.12,Bau von Bahnverkehrsstrecken,12,5,1758,•,8158
+42.13,Brücken- und Tunnelbau,3,1,187,•,668
+42.2,Leitungstiefbau und Kläranlagenbau,105,53,3049,2173,10621
+42.21,"Rohrleitungstiefbau, Brunnen- und Kläranlagenbau",56,30,1706,1252,6333
+42.22,Kabelnetzleitungstiefbau,49,23,1343,921,4288
+42.9,Sonstiger Tiefbau,11,4,367,92,1507
+42.91,Wasserbau,4,1,82,•,334
+42.99,Sonstiger Tiefbau a.n.g.,7,3,285,•,1173
+43.1,Abbrucharbeiten und vorbereitende Baustellenarbeiten,200,16,1762,233,4562
+43.11,Abbrucharbeiten,152,13,1208,175,2561
+43.12,Vorbereitende Baustellenarbeiten,45,3,546,58,1980
+43.13,Test- und Suchbohrung,3,–,8,–,21
+43.9,Sonstige spezialisierte Bautätigkeiten,1702,847,9799,6979,25064
+43.91,Dachdeckerei und Zimmerei,469,403,3460,3277,9627
+43.91.1,Dachdeckerei und Bauspenglerei,360,323,3024,2928,8642
+43.91.2,Zimmerei und Ingenieurholzbau,109,80,436,349,985
+43.99,Sonstige spezialisierte Bautätigkeiten a.n.g.,1233,444,6339,3702,15438
+43.99.1,Gerüstbau,70,62,933,871,2791
+43.99.2,"Schornstein-, Feuerungs- und Industrieofenbau",21,20,99,96,235
+43.99.9,Baugewerbe a.n.g.,1142,362,5307,2735,12411

@@ -1,0 +1,28 @@
+wz_2008,sector,turnover_total,turnover_in_building_industry,turnover_in_companies_with_1_19_employees,turnover_in_companies_with_20_49_employees,turnover_in_companies_with_50_99_employees,turnover_in_companies_with_100_employees_and_more
+41.2,Bau von Gebäuden,2471808,2465493,332031,549068,492357,1092037
+41.20.1,Bau von Gebäuden (ohne Fertigteilbau),2214653,2208338,•,•,•,•
+41.20.2,Errichtung von Fertigteilbauten,257155,257155,•,•,•,•
+42,Tiefbau,1363118,1359005,130508,184648,343493,700355
+42.1,Bau von Straßen und  Bahnverkehrsstrecken,722539,721171,42974,100390,76962,500846
+42.11,Bau von Straßen,299209,298089,36414,65140,33493,163042
+42.12,Bau von Bahnverkehrsstrecken,366170,365922,5648,35250,21275,303750
+42.13,Brücken- und Tunnelbau,57160,57160,912,–,22194,34053
+42.2,Leitungstiefbau und Kläranlagenbau,492037,490463,70167,77531,187040,155725
+42.21,"Rohrleitungstiefbau, Brunnen- und Kläranlagenbau",253186,251881,35267,45302,94667,76645
+42.22,Kabelnetzleitungstiefbau,238851,238582,34899,32229,92373,79080
+42.9,Sonstiger Tiefbau,148542,147371,17367,6727,79491,43785
+42.91,Wasserbau,19185,19179,12452,6727,–,–
+42.99,Sonstiger Tiefbau a.n.g.,129356,128191,4915,–,79491,43785
+43.1,Abbrucharbeiten und vorbereitende Baustellenarbeiten,297745,295982,123387,64910,48869,58817
+43.11,Abbrucharbeiten,166597,164919,87065,55335,22519,–
+43.12,Vorbereitende Baustellenarbeiten,130358,130273,35532,9574,26350,58817
+43.13,Test- und Suchbohrung,790,790,790,–,–,–
+43.9,Sonstige spezialisierte Bautätigkeiten,1260877,1255817,656008,409158,145930,44721
+43.91,Dachdeckerei und Zimmerei,446708,445296,239967,156221,49108,–
+43.91.1,Dachdeckerei und Bauspenglerei,400690,399623,199817,150698,49108,–
+43.91.2,Zimmerei und Ingenieurholzbau,46017,45673,40151,5522,–,–
+43.99,Sonstige spezialisierte Bautätigkeiten a.n.g.,814169,810522,416042,252937,96822,44721
+43.99.1,Gerüstbau,144188,142787,57340,74854,10592,–
+43.99.2,"Schornstein-, Feuerungs- und Industrieofenbau",7171,7171,7171,–,–,–
+43.99.9,Baugewerbe a.n.g.,662810,660564,351530,178083,86230,44721
+41.2/4243.1/43.9,Bauhauptgewerbe insgesamt,5393548,5376297,1241934,1207783,1030650,1895929

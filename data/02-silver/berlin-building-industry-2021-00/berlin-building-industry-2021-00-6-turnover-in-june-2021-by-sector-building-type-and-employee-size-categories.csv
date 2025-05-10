@@ -1,0 +1,37 @@
+wz_2008,sector,turnover_total,turnover_in_building_industry,turnover_in_companies_with_1_19_employees,turnover_in_companies_with_20_49_employees,turnover_in_companies_with_50_99_employees,turnover_in_companies_with_100_employees_and_more
+41.2,Bau von Gebäuden,204234,203818,23517,41164,37830,101307
+41.20.1,Bau von Gebäuden (ohne Fertigteilbau),182430,182014,•,•,•,•
+41.20.2,Errichtung von Fertigteilbauten,21804,21804,•,•,•,•
+42,Tiefbau,102416,102313,11547,17155,30803,42809
+42.1,Bau von Straßen und  Bahnverkehrsstrecken,55250,55153,4328,9864,10699,30263
+42.11,Bau von Straßen,29812,29750,4026,5082,5034,15609
+42.12,Bau von Bahnverkehrsstrecken,21533,21500,•,•,•,•
+42.13,Brücken- und Tunnelbau,3904,3903,•,•,•,•
+42.2,Leitungstiefbau und Kläranlagenbau,35677,35671,5672,6453,15403,8143
+42.21,"Rohrleitungstiefbau, Brunnen- und Kläranlagenbau",20487,20481,2829,5012,7807,4833
+42.22,Kabelnetzleitungstiefbau,15190,15190,2544,1441,7896,3309
+42.9,Sonstiger Tiefbau,11490,11490,1548,•,•,•
+42.91,Wasserbau,1796,1796,958,•,•,•
+42.99,Sonstiger Tiefbau a.n.g.,9694,9694,589,•,•,•
+43.1,Abbrucharbeiten und vorbereitende Baustellenarbeiten,21707,21693,8816,5863,7014,–
+43.11,Abbrucharbeiten,13274,13268,6005,•,•,–
+43.12,Vorbereitende Baustellenarbeiten,•,•,•,•,•,•
+43.13,Test- und Suchbohrung,•,•,•,•,•,•
+43.9,Sonstige spezialisierte Bautätigkeiten,105173,104952,51256,32602,14940,6154
+43.91,Dachdeckerei und Zimmerei,43472,43458,20161,14951,•,•
+43.91.1,Dachdeckerei und Bauspenglerei,39564,39550,17242,13962,•,•
+43.91.2,Zimmerei und Ingenieurholzbau,3908,3908,2919,989,–,–
+43.99,Sonstige spezialisierte Bautätigkeiten a.n.g.,61701,61494,31096,17650,•,•
+43.99.1,Gerüstbau,13671,13582,5814,5957,•,•
+43.99.2,"Schornstein-, Feuerungs- und Industrieofenbau",446,446,446,–,–,–
+43.99.9,Baugewerbe a.n.g.,47583,47466,24837,11693,•,•
+41.2/4243.1/43.9,Bauhauptgewerbe insgesamt,433530,432776,95136,96783,90587,150270
+,Wohnungsbau,x,215776,55931,47094,36743,76007
+,Gewerblicher Bau,x,144654,28953,29575,36528,49598
+,Hochbau,x,64817,18899,16395,9826,19698
+,Tiefbau,x,79836,10054,13180,26702,29900
+,Öffentlicher und Straßenbau,x,72347,10252,20115,17316,24665
+,Hochbau,x,25037,4845,9527,•,•
+,Tiefbau,x,47310,5408,10587,•,•
+,davon:  Straßenbau,x,32388,4287,5031,4257,18813
+,sonstiger Tiefbau,x,14922,1121,5556,6035,2210
