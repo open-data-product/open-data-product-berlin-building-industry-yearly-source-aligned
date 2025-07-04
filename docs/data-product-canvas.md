@@ -5,7 +5,7 @@
 
 * owner: Open Data Product
 * description: Source-aligned data product providing Berlin building industry data
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 ## Input Ports
 
@@ -66,7 +66,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2020-00
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -90,7 +90,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2021-00
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -114,7 +114,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-00
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
@@ -138,7 +138,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-00
-* updated: 2025-06-24
+* updated: 2025-07-29
 
 **Files**
 
