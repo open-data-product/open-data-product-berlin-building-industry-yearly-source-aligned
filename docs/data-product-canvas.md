@@ -5,7 +5,7 @@
 
 * owner: Open Data Product
 * description: Source-aligned data product providing Berlin building industry data
-* updated: 2025-07-29
+* updated: 2025-10-26
 
 ## Input Ports
 
@@ -58,7 +58,7 @@
 * [Data extractor](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/extract/data_extractor.py) extracts data from inout ports
 * [Data copier](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_copier.py) copies and renames extracted data
 * [Data CSV converter](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_converter.py) converts Excel files to CSV format
-* [Data CSV aggregator](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_csv_aggregator.py) aggregates data to be used as output ports
+* [Data aggregator](https://github.com/open-data-product/open-data-product-python-lib/blob/main/opendataproduct/transform/data_aggregator.py) aggregates data to be used as output ports
 
 ## Output Ports
 
@@ -66,7 +66,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2020-00
-* updated: 2025-07-29
+* updated: 2025-10-26
 
 **Files**
 
@@ -90,7 +90,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2021-00
-* updated: 2025-07-29
+* updated: 2025-10-26
 
 **Files**
 
@@ -114,7 +114,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-00
-* updated: 2025-07-29
+* updated: 2025-10-26
 
 **Files**
 
@@ -138,7 +138,7 @@
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-00
-* updated: 2025-07-29
+* updated: 2025-10-26
 
 **Files**
 
