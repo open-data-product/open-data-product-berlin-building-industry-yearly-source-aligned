@@ -6,7 +6,7 @@ metadata:
   description: Source-aligned data product providing Berlin building industry data
   url:
   license:
-  updated: 2025-10-26
+  updated: 2025-10-27
   schema: []
 input_ports:
   - id: berlin-building-industry-2020-00
@@ -74,7 +74,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2020-00
       license:
-      updated: 2025-10-26
+      updated: 2025-10-27
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/main/data/02-silver/berlin-building-industry-2020-00/berlin-building-industry-2020-00-1-companies-employees-and-working-hours.csv
@@ -99,7 +99,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2021-00
       license:
-      updated: 2025-10-26
+      updated: 2025-10-27
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/main/data/02-silver/berlin-building-industry-2021-00/berlin-building-industry-2021-00-1-companies-employees-and-working-hours.csv
@@ -124,7 +124,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2022-00
       license:
-      updated: 2025-10-26
+      updated: 2025-10-27
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/main/data/02-silver/berlin-building-industry-2022-00/berlin-building-industry-2022-00-1-companies-employees-and-working-hours.csv
@@ -149,7 +149,7 @@ output_ports:
       description:
       url: https://github.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/tree/main/data/02-silver/berlin-building-industry-2023-00
       license:
-      updated: 2025-10-26
+      updated: 2025-10-27
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-industry-yearly-source-aligned/main/data/02-silver/berlin-building-industry-2023-00/berlin-building-industry-2023-00-1-companies-employees-and-working-hours.csv
