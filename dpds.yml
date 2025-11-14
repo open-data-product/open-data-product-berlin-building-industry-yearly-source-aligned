@@ -1,0 +1,129 @@
+---
+dataProductDescriptor: data-product-descriptor
+info:
+  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:berlin-building-industry-yearly-source-aligned:1.0
+  name: Berlin Building Industry yearly (source-aligned)
+  version: '1.0'
+  domain: domain
+  owner:
+    id: Open Data product
+    name: Open Data product
+  id: berlin-building-industry-yearly-source-aligned
+  entityType:
+  displayName: Berlin Building Industry yearly (source-aligned)
+  description: Source-aligned data product providing Berlin building industry data
+  contactPoints:
+interfaceComponents:
+  outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2020-00
+      fullyQualifiedName: berlin-building-industry-2020-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2021-00
+      fullyQualifiedName: berlin-building-industry-2021-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2022-00
+      fullyQualifiedName: berlin-building-industry-2022-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2023-00
+      fullyQualifiedName: berlin-building-industry-2023-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  inputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2020-00
+      fullyQualifiedName: berlin-building-industry-2020-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2021-00
+      fullyQualifiedName: berlin-building-industry-2021-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2022-00
+      fullyQualifiedName: berlin-building-industry-2022-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-industry-2023-00
+      fullyQualifiedName: berlin-building-industry-2023-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  discoveryPorts:
+  observabilityPorts:
+  controlPorts:
+internalComponents:
+components:
+tags:
+externalDocs:
